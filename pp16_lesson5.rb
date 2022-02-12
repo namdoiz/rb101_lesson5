@@ -1,8 +1,8 @@
 # Write a method that returns one UUID when called with no parameters.
 
 def letter_choice
-  x = rand(0...26)
-  alphabet = 'qwertyuiopasdfghjklzxcvbnm'
+  x = rand(0...5)
+  alphabet = 'abcdef'
   choice = alphabet[x]
   choice
 end 
