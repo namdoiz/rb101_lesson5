@@ -93,7 +93,7 @@ def loop_one
         break
       end
     end
-    break if char1.size == 32
+    break if char1.size == 36
   end
   char1
 end
